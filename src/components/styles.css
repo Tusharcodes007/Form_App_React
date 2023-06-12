@@ -1,0 +1,48 @@
+/* styles.css */
+ body {
+    background-color: #C2DEDC;
+ }
+h1 ,h2{
+    color: #090580;
+    margin-top: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+  }
+  
+  .form-container form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .form-container input[type='text'],
+  .form-container input[type='email'],
+  .form-container input[type='tel'],
+  .form-container input[type='date'] {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .form-container button[type='submit'] {
+    width: 105.5%;
+    padding: 10px;
+    background-color: #068DA9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-container span {
+    color: red;
+  }
+  
+  
